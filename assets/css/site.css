@@ -166,7 +166,7 @@ section.tight { padding: 48px 0; }
 }
 .hero-img img, .hero-img video {
   width: 100%;
-  max-width: 480px;
+  max-width: 640px;
   display: block;
   animation: slideFromRight 1.2s cubic-bezier(0.22,1,0.36,1) both;
 }
