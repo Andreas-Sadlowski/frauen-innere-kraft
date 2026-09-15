@@ -40,24 +40,28 @@
 </header>
 
 <!-- HERO -->
-<section class="hero" style="padding:80px 0 64px">
+<section class="hero" style="padding:60px 0 0">
   <div class="container">
-    <div class="hero-grid">
+    <div class="hero-grid" style="align-items:center">
       <div>
         <span class="eyebrow">Coaching für Frauen</span>
-        <h1 class="hero-quote">
+        <h1 class="hero-quote" style="font-size:clamp(1.8rem,4vw,2.8rem)">
           „Du <strong>bist</strong> mehr –<br>
           und du <strong>kannst</strong> mehr –<br>
           als das, was du von<br>dir denkst."
         </h1>
         <p class="sub" style="margin-top:24px">Hör auf, die Erfüllung im Außen zu suchen. Deine wahre Quelle liegt in dir – und ich zeige dir den Weg dorthin.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:8px">
+        <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:24px">
           <a href="/erstgespraech/" class="btn btn-lg">Kostenloses Erstgespräch →</a>
           <a href="/ueber/" class="btn btn-lg btn-outline">Über Edyta</a>
         </div>
       </div>
-      <div class="hero-img" style="max-height:500px">
-        <img src="/assets/img/edyta-hero.jpg" alt="Edyta Greupner – Innere-Kraft Coach" width="540" height="500" loading="eager">
+      <div class="hero-img" style="display:flex;align-items:flex-end;justify-content:center">
+        <video autoplay muted loop playsinline style="width:100%;max-width:480px;display:block"
+               poster="/assets/img/edyta-hero.png">
+          <source src="/assets/img/edyta-hero.mp4" type="video/mp4">
+          <img src="/assets/img/edyta-hero.png" alt="Edyta Greupner – Innere-Kraft Coach">
+        </video>
       </div>
     </div>
   </div>
@@ -90,29 +94,60 @@
   </div>
 </section>
 
-<!-- WAS IST INNERE KRAFT -->
-<section class="bg-alt">
+<!-- YOUTUBE VIDEO + KENNST DU DAS -->
+<section>
   <div class="container">
-    <div class="center" style="margin-bottom:48px">
-      <span class="eyebrow">Das Fundament</span>
-      <h2>Was ist die Innere Kraft?</h2>
-      <p class="section-sub center">Sie ist der Funke in dir, der niemals erloschen ist – nur verschüttet.</p>
+    <div class="split" style="align-items:flex-start;gap:48px">
+      <div style="flex:1.2">
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:var(--radius-lg)">
+          <iframe src="https://www.youtube.com/embed/zj03lX-xaEw?modestbranding=1&rel=0" frameborder="0" allowfullscreen
+            style="position:absolute;top:0;left:0;width:100%;height:100%"></iframe>
+        </div>
+      </div>
+      <div style="flex:1">
+        <p style="font-size:1.05rem;color:var(--ink-2)"><strong>Kennst du das?</strong> Du greifst nach der nächsten „Erfüllung" und merkst dann, dass es dich nicht so glücklich macht wie erhofft. Z.B.:</p>
+        <div style="margin:16px 0;padding:16px;border-left:3px solid var(--red);font-size:.95rem;color:var(--ink-2)">"Wenn ich nur einen guten Partner hätte, wäre ich glücklich und erfüllt!"</div>
+        <div style="margin:16px 0;padding:16px;border-left:3px solid var(--red);font-size:.95rem;color:var(--ink-2)">"Wenn ich eines Tages eigene Kinder habe, brauche ich nichts mehr im Leben um erfüllt zu sein."</div>
+        <div style="margin:16px 0;padding:16px;border-left:3px solid var(--red);font-size:.95rem;color:var(--ink-2)">"Wenn ich den perfekten Job hätte, dann wäre ich erfüllt und glücklich."</div>
+        <p style="color:var(--ink-2)">…und innerlich weißt du, dass die Sehnsucht nach etwas viel Größerem ist: deiner persönlichen inneren Kraftquelle!</p>
+        <a href="/erstgespraech/" class="btn" style="margin-top:16px">Kostenfreies Erstgespräch vereinbaren →</a>
+      </div>
     </div>
-    <div class="cards three">
-      <div class="card">
-        <div class="ico">✨</div>
-        <h3>Unzerstörbar</h3>
-        <p>Es ist die Kraft in dir, die durch keine Vergangenheit, keine Verletzung und keinen Glaubenssatz ausgelöscht werden kann.</p>
+  </div>
+</section>
+
+<!-- WAS IST INNERE KRAFT – dunkelblau wie Original -->
+<section style="background:#203973;color:#fff">
+  <div class="container">
+    <div class="split" style="gap:48px">
+      <div>
+        <h2 style="color:#fff;text-align:center;margin-bottom:32px">Was ist die INNERE KRAFT</h2>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px">
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist die <strong>unzerstörbare Kraft</strong> in dir</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist der <strong>Funke in dir</strong>, der verschüttet ist, aber nicht erloschen.</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist nur <strong>verschüttet</strong> durch Konditionierungen aus der Erziehung, den falschen Glaubenssätzen</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist der <strong>Aspekt deiner Seele</strong>, der mehr weiß als du dir vorstellen kannst</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist <strong>unbegrenzt</strong></span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist <strong>vollkommen</strong></span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Es ist der <strong>Schlüssel zu wahrem Glück</strong> – sowohl innerlich als auch äußerlich</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span><strong>Jeder darf hier anzapfen</strong> – unabhängig vom Glauben, Herkunft, Bildung oder der Vergangenheit</span></li>
+        </ul>
       </div>
-      <div class="card">
-        <div class="ico">🔓</div>
-        <h3>Verschüttet – nicht verloren</h3>
-        <p>Konditionierungen aus der Erziehung und falsche Glaubenssätze haben sie bedeckt. Gemeinsam legen wir sie frei.</p>
-      </div>
-      <div class="card">
-        <div class="ico">🌱</div>
-        <h3>Für jede Frau</h3>
-        <p>Unabhängig von Herkunft, Glaube, Bildung oder Vergangenheit – jede darf hier anzapfen. Wirklich jede.</p>
+      <div>
+        <h2 style="color:#fff;text-align:center;margin-bottom:32px">Welchen Frauen kann ich helfen</h2>
+        <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px">
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die auf der <strong>Stelle</strong> treten</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die sich <strong>schwach oder unvollständig</strong> fühlen</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die <strong>an sich nicht glauben</strong>, aber es gerne würden</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die <strong>Angst vor Veränderungen</strong> haben, es sich aber wünschen</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die den <strong>Ruf der Seele wahrnehmen</strong>, aber damit nichts anfangen können</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die nach <strong>tiefer</strong> Erfüllung suchen</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die sich <strong>ausgelaugt, deprimiert, lustlos, verwirrt</strong> oder <strong>ängstlich</strong> fühlen</span></li>
+          <li style="display:flex;gap:10px;align-items:flex-start"><span style="color:var(--red);font-size:1.1rem">♥</span><span>Die das Verlangen nach <strong>Erkenntnis</strong> verspüren</span></li>
+        </ul>
+        <div style="text-align:center;margin-top:40px">
+          <a href="/erstgespraech/" class="btn" style="background:#f2f2f2;color:var(--red)">Kostenloses Erstgespräch reservieren →</a>
+        </div>
       </div>
     </div>
   </div>
